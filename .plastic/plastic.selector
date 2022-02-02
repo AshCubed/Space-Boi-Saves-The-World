@@ -1,0 +1,3 @@
+rep "SA Game Jam 2022@MegaParkour@cloud"
+  path "/"
+    smartbranch "/main"

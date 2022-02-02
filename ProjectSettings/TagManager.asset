@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - IngredientPickUp
+  - WishTube
+  - Planet
+  - WishTubeBtn
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Body
+  - Water
+  - UI
+  - Helmet
+  - Ingredients
+  - Stations
+  - Tubes
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Head
+    uniqueID: 2280282947
+    locked: 0
+  - name: Body
+    uniqueID: 769376535
+    locked: 0
+  - name: Stuff
+    uniqueID: 422813
+    locked: 0

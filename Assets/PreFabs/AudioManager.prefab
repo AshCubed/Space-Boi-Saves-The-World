@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7418226596280122651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7190916497442079496}
+  - component: {fileID: 9161680283509911607}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7190916497442079496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7418226596280122651}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9161680283509911607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7418226596280122651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90503ca0d4f037543a6410c6205daeee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixerMainGroup: {fileID: 24300002, guid: 1541136a5b5090e4abc81c19b34eb31e, type: 2}
+  audioMixersUi: {fileID: -2315137497603876756, guid: 1541136a5b5090e4abc81c19b34eb31e, type: 2}
+  audioMixersMusic: {fileID: -5090438892193886099, guid: 1541136a5b5090e4abc81c19b34eb31e, type: 2}
+  audioMixersSfx: {fileID: -7447857603999175651, guid: 1541136a5b5090e4abc81c19b34eb31e, type: 2}
+  sounds:
+  - name: Menu/Credits
+    clip: {fileID: 8300000, guid: 8d203f535ab9fec488b1ce17300bff33, type: 3}
+    soundType: 2
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Background Music
+    clip: {fileID: 8300000, guid: 0efc79a1820317742b09e264c4eb9f7b, type: 3}
+    soundType: 2
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: c1b0f5ea62bcd79418f60bb582da45c1, type: 3}
+    soundType: 3
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Lose
+    clip: {fileID: 8300000, guid: c6bb4cd0f6a4d75488e6d0198f3d6afb, type: 3}
+    soundType: 3
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: 8ae2eee841756714e95f8e0aa6422591, type: 3}
+    soundType: 3
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Pickup/Interact
+    clip: {fileID: 8300000, guid: 3a7a3cd51c7a4aa4d9e8691399e2fa89, type: 3}
+    soundType: 3
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Generate Good
+    clip: {fileID: 8300000, guid: 9e5510454e3352e4e8392e1d46e0aae8, type: 3}
+    soundType: 3
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Generate Bad
+    clip: {fileID: 8300000, guid: 558dd8d1303fc4d42bd2661f0f839eb1, type: 3}
+    soundType: 3
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Launch Wish
+    clip: {fileID: 8300000, guid: 16514071d7ee51545963701ee7a21d67, type: 3}
+    soundType: 3
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Push Button
+    clip: {fileID: 8300000, guid: 3a7a3cd51c7a4aa4d9e8691399e2fa89, type: 3}
+    soundType: 3
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
